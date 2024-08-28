@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty"},
         features = "src/test/resources/features",
         glue = "com.nttdata.stepsdefinitions",
-        tags ="@LoginTest"
+        tags ="@regression"
 )
 public class CucumberTestSuite {
 }
